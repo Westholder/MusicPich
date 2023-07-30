@@ -1,0 +1,246 @@
+*
+    box-sizing: border-box
+
+body
+    margin: 0
+    font-family: Arial, Helvetica, sans-serif
+
+.btn
+    margin: 10px
+    width: 100px
+    height: 25px
+    background: none
+    border: 2px solid #37C25E
+    border-radius: 10px
+    color: #37C25E
+    transition: 0.2s all
+    cursor: pointer
+    &:hover
+      background-color: #37c25e71
+      color: white
+    &:active
+      background-color: #37C25E
+      color: white
+      
+      
+
+.nav-logo
+    display: flex
+    flex-direction: row
+    h3
+        line-height: 0.4em
+        color: white
+
+.face
+    background: #151A27
+    background-image: url(../img/music-back-low.png)
+    background-size: 100% 950px 
+    background-repeat: no-repeat
+    height: 1200px
+
+    .nav-bar
+        display: grid
+        justify-content: space-around
+        grid-template-columns: 30% 5% 5% 5% 5% 5% 30%
+        line-height: 2.6em
+        padding: 10px
+        a
+            text-decoration: none
+            color: white
+            text-align: center
+            transition: 0.2s all
+            &:hover
+              color: #37C25E
+        .btn
+            float: right
+
+    .label
+        position: relative
+        text-align: center
+        color: white
+        h1
+            font-size: 80px
+            background-image: radial-gradient( #eeeeee 0%, #B4BABC 100%)
+            background-clip: text 
+            -webkit-background-clip: text 
+            color: transparent
+            margin-bottom: -5px
+            text-transform: uppercase
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            line-height: 1em
+        p
+            color: #B4BABC
+            font-size: 20px
+            line-height: 1.5em
+        .btn
+            width: 150px
+            height: 40px
+            font-size: 15px
+            font-weight: bold
+            background: #37C25E
+            color: white
+            transition: 0.5s all
+            cursor: pointer
+            &:hover
+              box-shadow: 1px 1px 20px #eeeeee
+    .check
+        background: radial-gradient(350.94% 343.49% at 51.82% -159.87%, #404657 0%, rgba(64, 70, 87, 0.00) 100%)
+        backdrop-filter: blur(35px) 
+        height: 200px
+        width: 100%
+        margin: auto
+        position: relative
+        top: 500px
+        border-radius: 20px
+        display: flex
+        flex-direction: column
+        text-align: center
+        color: white
+        p
+            color: #B4BABC
+        .check-list
+            display: flex
+            flex-direction: row
+            justify-content: space-around
+            p::before
+                content: "\2714"
+                color: #37C25E
+                margin-right: 10px
+                font-size: 20px
+        
+            
+
+.box 
+  width: 100%
+  min-height: 970px
+  margin: auto
+  background: #151A27
+  display: flex
+  flex-direction: column
+  .btn
+    margin: auto
+    text-align: center
+    height: 30px
+    padding: 5px
+    cursor: pointer
+
+
+
+.line 
+  min-height: 670px
+  gap: 20px
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  margin-left: 50px
+  margin-right: 50px
+  
+  
+  
+ 
+
+.line,
+.line > .column 
+  padding: 8px
+
+
+.column 
+  float: center
+  width: 18%
+  display: none
+
+
+
+.line:after 
+  content: ""
+  display: table
+  clear: both
+
+
+
+.content 
+    background: radial-gradient(350.94% 343.49% at 51.82% -159.87%, #404657 0%, rgba(64, 70, 87, 0.00) 100%)
+    backdrop-filter: blur(35px) 
+    object-fit: cover
+    border-radius: 10px
+    transition: 0.3s all
+    &:hover
+      box-shadow: 2px 2px 10px #4d4c4c
+      cursor: pointer
+    h4
+        color: white
+        margin-left: 10px
+    p
+      margin-left: 10px
+      color:#B4BABC
+      padding-bottom: 10px 
+    img
+      object-fit: cover 
+
+
+.show 
+  display: block
+
+
+.btnC
+    margin: 10px
+    width: 100px
+    height: 25px
+    background: none
+    border: 2px solid #37C25E
+    border-radius: 10px
+    color: #37C25E
+    transition: 0.2s all
+    cursor: pointer
+
+.btnC:hover 
+  background-color: #37c25e71
+  color: white
+
+
+.btnC.active 
+  background-color: #37C25E
+  color: white
+
+.footer
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+  position: relative
+  height: 250px
+  background: radial-gradient(350.94% 343.49% at 51.82% -159.87%, #404657 0%, rgba(64, 70, 87, 0.00) 100%)
+  backdrop-filter: blur(35px) 
+  .nav-logo 
+    flex-wrap: wrap
+    width: 400px
+    margin-top: 20px
+    p
+      margin-top: -90px
+      color: #B4BABC
+  img
+    width: 40px
+    height: 40px
+
+  .foot-line
+    display: flex
+    flex-direction: row
+    position: relative
+    margin: 0
+    h4
+      margin-bottom: -5px
+      color: #B4BABC
+    li
+      list-style-type: none
+    a
+      text-decoration: none
+      color: #fdfdfd
+      padding: 2px
+      &:hover
+        color: #37C25E
+
+
+
+        
+                
+    
+    
